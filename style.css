@@ -1,0 +1,88 @@
+
+/*											BANNER LOGO						  */
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #ff416e!important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+div.bannerLogo img{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	width: 15%;
+}
+        /* 								HEADER							 */
+.spacer{
+    width: 100%;
+    height: 95px;
+}
+.jumbotron { 
+    text-align: center;
+    background-color: #ee799c;
+    color: #ffffff;
+}
+
+/* 									CAROUSEL FOR IMAGES					 */
+
+.carousel-inner img {
+    -webkit-filter: grayscale(10%);
+    filter: grayscale(10%);  
+    width: 50%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+/* 								BODY							 */
+body {
+    background-color: #ee799c;
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+.jumbotron {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+
+/*                          CALENDAR                                */
+.calander{
+    border: 0;
+    width: 800;
+    height: 600;
+    scroll-behavior: smooth;
+
+}
